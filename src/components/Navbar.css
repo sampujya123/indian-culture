@@ -1,0 +1,53 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #138808; /* Green from the Indian flag */
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Navbar logo/link styling */
+  .navbar-logo a {
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Navbar links container */
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar links styling */
+  .navbar-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links li a:hover {
+    color: #FF9933; /* Saffron on hover */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .navbar-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .navbar-logo a {
+      font-size: 1.2em;
+    }
+  }
+  

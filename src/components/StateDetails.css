@@ -1,0 +1,51 @@
+/* Styling for the video */
+.video-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* State Symbols Section */
+.state-symbols {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.state-symbols h2 {
+  margin-bottom: 15px;
+}
+
+.state-symbols ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.state-symbols li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Districts Section */
+.districts-container {
+  margin: 20px 0;
+}
+
+.districts-container h2 {
+  margin-bottom: 15px;
+}
+
+.district-button {
+  margin: 10px;
+  padding: 10px 15px;
+  background-color: #138808; /* Green from the Indian flag */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.district-button:hover {
+  background-color: #FF9933; /* Saffron from the Indian flag */
+}
